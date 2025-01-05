@@ -19,7 +19,7 @@ def register(request):
                 messages.success(request,"registration successfull!!!  Please login")
                 return redirect('login')
             except:
-                messages.error(request,"Username already exist!")
+                messages.error(request,"Username already existsssss!")
         else:
             messages.error(request,"Invalid username or password")
         return render(request,'register.html')
